@@ -6,7 +6,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
 		<servlet-name>ContactApplicationLowLevel</servlet-name>
-		<servlet-class>com.practise.ContactApplicationLowLevel.ContactApplicationLowLevelServlet</servlet-class>
+		<servlet-class>com.project.ContactApplicationLowLevel.ContactApplicationLowLevelServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ContactApplicationLowLevel</servlet-name>

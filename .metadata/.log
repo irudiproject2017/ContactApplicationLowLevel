@@ -14,3 +14,34 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY com.google.gwt.eclipse.core 2 0 2017-11-13 19:06:40.958
 !MESSAGE GWT SDK not found
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-11-13 19:11:10.645
+!MESSAGE Transport Error: Cannot get remote repository refs.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git/info/refs?service=git-upload-pack not found
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:196)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:99)
+	at org.eclipse.egit.ui.internal.components.RefSpecPage$3.run(RefSpecPage.java:250)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git/info/refs?service=git-upload-pack not found
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:488)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:309)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:175)
+	... 3 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-11-13 19:11:23.022
+!MESSAGE Transport Error: Cannot get remote repository refs.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git/info/refs?service=git-upload-pack not found
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:196)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:99)
+	at org.eclipse.egit.ui.internal.components.RefSpecPage$3.run(RefSpecPage.java:250)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git: https://github.com/irudiproject2017/ContactApplicationLowLevel.githttps://github.com/irudiproject2017/ContactApplicationLowLevel.git/info/refs?service=git-upload-pack not found
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:488)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:309)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:175)
+	... 3 more
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2017-11-13 19:13:17.983
+!MESSAGE GWT SDK not found
